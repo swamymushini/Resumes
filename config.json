@@ -1,0 +1,56 @@
+[
+  {
+    "text-file": "gopala-swamy.tex",
+    "replace": {
+      "swamymushini@gmail.com": "swamymushini@gmail.com",
+      "+91-9553307417": "+91-9553307417",
+      "+91 955-330-7417": "+91 955-330-7417"
+    },
+    "output_name": "Gopala_Swamy___Senior_Software_Engineer-25"
+  },
+  {
+    "text-file": "gopala-swamy.tex",
+    "replace": {
+      "swamymushini@gmail.com": "swamymushini2@gmail.com",
+      "+91-9553307417": "+91-9110760301",
+      "+91 955-330-7417": "+91 911-076-0301"
+    },
+    "output_name": "Gopala_Swamy___Senior_Software_Engineer-252"
+  },
+  {
+    "text-file": "gopala-swamy.tex",
+    "replace": {
+      "swamymushini@gmail.com": "swamymushini@zohomail.in",
+      "+91-9553307417": "+91-9110760301",
+      "+91 955-330-7417": "+91 911-076-0301"
+    },
+    "output_name": "Gopala_Swamy___Senior_Software_Engineer-25z"
+  },
+  {
+    "text-file": "gopala-swamy-a.tex",
+    "replace": {
+      "swamymushini@gmail.com": "swamymushini@gmail.com",
+      "+91-9553307417": "+91-9553307417",
+      "+91 955-330-7417": "+91 955-330-7417"
+    },
+    "output_name": "Gopala_Swamy___Senior_Software_Engineer-25-a"
+  },
+  {
+    "text-file": "gopala-swamy-a.tex",
+    "replace": {
+      "swamymushini@gmail.com": "swamymushini2@gmail.com",
+      "+91-9553307417": "+91-9110760301",
+      "+91 955-330-7417": "+91 911-076-0301"
+    },
+    "output_name": "Gopala_Swamy___Senior_Software_Engineer-252-a"
+  },
+  {
+    "text-file": "gopala-swamy-a.tex",
+    "replace": {
+      "swamymushini@gmail.com": "swamymushini@zohomail.in",
+      "+91-9553307417": "+91-9110760301",
+      "+91 955-330-7417": "+91 911-076-0301"
+    },
+    "output_name": "Gopala_Swamy___Senior_Software_Engineer-25z-a"
+  }
+]

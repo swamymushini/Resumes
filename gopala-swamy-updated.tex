@@ -1,0 +1,124 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper, left=0.40in, right=0.40in, top=0.45in, bottom=0.15in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\hyphenation{Some-long-word}
+\usepackage{hyperref}
+\usepackage{resume}
+\usepackage{geometry}
+\definecolor{db5c31}{HTML}{DB5C31}
+\usepackage{fontawesome5}
+
+\begin{document}
+
+
+\begin{flushleft}
+    {\Huge  \textbf{GOPALA} SWAMY MUSHINI}\\[2.8ex]  % Increased font size
+    { SENIOR SOFTWARE ENGINEER}\\[2ex]  % Capitalized and added spacing
+
+    \textcolor{db5c31}{\faEnvelope} \href{mailto:swamymushini@zohomail.in}{\textcolor{black}{\large swamymushini@zohomail.in}} 
+    \hspace{1mm} \textbullet\ \hspace{1mm}
+    \textcolor{db5c31}{\faPhone} \href{tel:+91-9110760301}{\textcolor{black}{\large +91 911-076-0301}} 
+    \hspace{1mm} \textbullet\ \hspace{1mm}
+    \textcolor{db5c31}{\faLinkedin} \href{https://www.linkedin.com/in/gopal-swamy-sde3/}{\textcolor{black}{\large linkedIn}} 
+    \hspace{1mm} \textbullet\ \hspace{1mm}
+    \textcolor{db5c31}{\faGithub} \href{https://github.com/swamymushini}{\textcolor{black}{\large github}} 
+    \hspace{1mm} \textbullet\ \hspace{1mm}
+    \textcolor{db5c31}{\faGlobe} \href{https://gopalaswamy.me}{\textcolor{black}{\large portfolio}} 
+
+\end{flushleft}
+\vspace{-2.4ex}
+\roottitle{WORK EXPERIENCE}
+
+\headedsection
+{\href{https://www.rocketsoftware.com/}{\textcolor{db5c31}{Rocket Software}}}
+{Pune, India}
+{Senior Software Engineer}
+{\period{Feb}{2022}{Present}}{
+\vspace{-2.4ex}
+\begin{circlist}
+    \item Designed and implemented an {\textbf{Automated billing system}}, replacing a manual process and saving over \textbf{120+ hours} of manual effort per quarter, while reducing billing errors by \textbf{95\%}.
+    \vspace{1mm}  
+    \item Engineered a cloud-native \textbf{API Integration platform} to pull orders from customer e-commerce platforms like \textbf{Shopify} and \textbf{Amazon Marketplace}, automating fulfillment and integration processes.
+    \vspace{1mm}  
+    \item Developed adaptable \textbf{Lambda connectors} for seamless integration with additional e-commerce platforms, reducing developer effort and \textbf{doubling customer integrations within 6 months}, leading to faster onboarding.
+    \vspace{1mm}
+    \item \textbf{Led the development of AI-powered document filtering}, enabling users to retrieve documents using \textbf{natural language queries via voice or text input}. Fine-tuned \textbf{LLM models like Mistral NeMo 12B} to interpret user queries and generate \textbf{filter JSON objects} for document retrieval.
+    \vspace{1mm}
+    \item \textbf{Designed AI agents using LangChain} to understand \textbf{EDI business terms} and convert user queries into \textbf{MongoDB queries}, providing users with \textbf{aggregated data} to efficiently query and summarize documents meta data from MongoDB.
+\end{circlist}
+}
+
+\headedsection
+{\href{https://www.pennanttech.com/}{\textcolor{db5c31}{Pennant Technologies}}}
+{Vizag, India}
+{Software Engineer}
+{\period{Jun}{2019}{Feb}{2022}}{
+\vspace{-2.4ex}
+\begin{circlist}
+    \item Migrated the monolithic \textbf{EOD loan processing system} into a scalable, distributed microservices architecture, achieving a \textbf{50\% performance improvement} by orchestrating parallel batch processing and running parallel execution of loan records across worker microservices, and implementing event-driven communication via Kafka.
+    \vspace{1mm}  
+    \item Engineered a highly resilient and performant system, implementing \textbf{database partitioning} and optimized SQL queries to boost \textbf{handling capacity by 30\%}, while ensuring zero data loss through idempotent processing, retry mechanisms with exponential backoff, and a Dead Letter Queue (DLQ) within a Kubernetes-managed environment.
+    \vspace{1mm}  
+    \item Developed an interface for creating \textbf{receipts} for EMI payments and partial loan payments, incorporating a \textbf{real-time notification system} for upcoming payments and confirmations, with \textbf{caching mechanisms} to reduce redundant database queries and improve response times.
+    \vspace{1mm}  
+    \item Developed and optimized the \textbf{Receipt Upload Functionality}, enabling instant upload of up to \textbf{10,000 payment receipts} and improving processing efficiency by \textbf{65\%} through \textbf{multi-threading techniques}.
+\end{circlist}
+}
+\spacedhrule{0.8ex}{0.0ex}
+
+\roottitle{TECHNICAL SKILLS}
+
+\begin{indentsection}
+    \skill{Languages}{Java, Python, JavaScript} \vspace{1mm}  
+    \skill{Frameworks \& Libraries}{Spring Boot, REST API, Apache Kafka, Redis, NodeJS, ReactJS} \vspace{1mm}  
+    \skill{Databases}{PostgreSQL, MySQL, Oracle, MongoDB, Cassandra} \vspace{1mm}  
+    \skill{Cloud \& DevOps}{AWS (EC2, EKS, S3, Lambda, SQS, SNS, CloudWatch), Docker, Kubernetes, Jenkins} \vspace{1mm}  
+    \skill{Others}{Git, JIRA, Postman, LLM, Ollama, Langchain, RAG, VibeCoding with AI}  
+\end{indentsection}
+\spacedhrule{0.8ex}{0.0ex}
+
+\roottitle{EDUCATION}
+
+\headedsection
+{\textcolor{db5c31}{Scaler Academy}}
+{Online Course}
+{Specialization in Software Engineering (DSA, HLD, LLD, Distributed Systems)}
+{\period{Feb}{2022}{May}{2023}}
+
+\vspace{-3mm} % Adjust this value as needed
+
+\headedsection
+{\textcolor{db5c31}{Jawaharlal Nehru Technological University}}
+{Andhra Pradesh, India}
+{Bachelor of Technology in Electrical Engineering}
+{\period{Jul}{2015}{Apr}{2019}}
+{}
+
+
+\spacedhrule{-0.8ex}{0.0ex}
+
+
+\roottitle{ACHIEVEMENTS}
+
+\begin{circlist}
+    \item \textbf{Star Performer Certification (Two Consecutive Years)} \textit{(2020, 2021)}: Recognized for delivering critical financial projects on time and driving innovation in software development, consistently exceeding performance expectations at Pennant Technologies.
+    \item \textbf{Spot Award (Three Times in Three Quarters)} \textit{(2023-2025)}: Awarded three times for innovation in adding AI features, adhering to best code practices, and solving critical production bugs through self-willingness and responsibility.
+    \item \textbf{Finalist - Rocket Build Hackathon} \textit{(2024)}: Advanced to the finals among 2000 participants, presenting my concept for building an AI Studio for easy development of LLM models.
+\end{circlist}
+
+
+
+\spacedhrule{0.8ex}{0.0ex}
+
+\roottitle{PERSONAL PORTFOLIO}
+
+\begin{circlist}
+    \item \textbf{AI Instagram Memer}: Developed a web-based meme generator using \textbf{OpenAI} APIs to generate meme text and post it directly on \textbf{Instagram} through APIs.
+    \item \textbf{CodeExpert Tool}: Built an \textbf{AI}-based VS Code extension serving as a coding assistant for developers, leveraging \textbf{Code Llama} LLM and \textbf{AWS SageMaker}.
+\end{circlist}
+
+
+
+
+\end{document}
